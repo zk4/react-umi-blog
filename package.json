@@ -20,11 +20,13 @@
     "test:component": "umi test ./src/components",
     "test:all": "node ./tests/run-tests.js",
     "prettier": "node ./scripts/prettier.js",
-    "d":"yarn build&&gh-pages -d dist -o github"
+    "d": "yarn build&&gh-pages -d dist -o github"
   },
   "dependencies": {
+    "@shd101wyy/mume": "^0.3.6",
     "ant-design-pro": "^2.1.1",
     "antd": "^3.10.9",
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "dva": "^2.4.0",
     "lodash": "^4.17.10",
@@ -41,8 +43,12 @@
     "react-container-query": "^0.11.0",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.6.3",
+    "react-mark": "^0.0.4",
+    "react-markdown": "^4.0.4",
     "react-media": "^1.8.0",
     "react-router-dom": "^4.3.1",
+    "showdown": "^1.9.0",
+    "showdown-highlight": "^2.1.3",
     "umi-request": "^1.0.0"
   },
   "devDependencies": {
