@@ -1,5 +1,6 @@
 {
   "name": "ant-design-pro",
+  "homepage": "https://zk4.github.io/react-umi-blog",
   "version": "2.1.1",
   "description": "An out-of-box UI solution for enterprise applications",
   "private": true,
@@ -18,7 +19,8 @@
     "test": "umi test",
     "test:component": "umi test ./src/components",
     "test:all": "node ./tests/run-tests.js",
-    "prettier": "node ./scripts/prettier.js"
+    "prettier": "node ./scripts/prettier.js",
+    "d":"yarn build&&gh-pages -d dist -o github"
   },
   "dependencies": {
     "ant-design-pro": "^2.1.1",
@@ -56,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-markdown": "^1.0.0-beta.6",
     "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^2.0.1",
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
     "mockjs": "^1.0.1-beta3",
